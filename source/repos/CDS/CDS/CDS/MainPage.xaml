@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CDS.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#8A2BE2" Padding="24" CornerRadius="0">
+            <Label Text="Welcome to CountDownSolver!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Entry Placeholder="Enter text"
+               Keyboard="Numeric"
+               TextChanged="OnEntryTextChanged"
+               Completed="OnEntryCompleted" />
+    </StackLayout>
+
+</ContentPage>
